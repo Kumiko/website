@@ -1,0 +1,41 @@
+html {
+    overflow-y: scroll;
+}
+
+@media (min-width: 768px)
+{
+  .container
+  {
+    max-width: 730px;
+  }
+}
+
+.navigation
+{
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+
+.footer
+{
+  border-top: 1px solid #e5e5e5;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.post
+{
+  padding-bottom: 20px;
+}
+
+.post-date, .post-tags
+{
+    font-style: italic;
+}
+
+.pager li>a
+{
+  border: none;
+}
+
