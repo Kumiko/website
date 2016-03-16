@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    {{ .Hugo.Generator }}
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>{{ .Site.Title }}</h1>
+      </div>
+      <div class="navigation">
+        <ul class="nav nav-pills">
+        {{ $currentNode := . }}
+        {{ range .Site.Menus.main }}
+          <li{{ if $currentNode.HasMenuCurrent "main" . }}class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+        </ul>
+      </div>
