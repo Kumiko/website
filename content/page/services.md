@@ -9,8 +9,8 @@ menu:
 
 ### Migrating to the cloud
 
-Thinking about moving your application into the cloud? Don’t know how?
-Don’t want to learn the nitty gritty details? We’re here for you! We can help
+Thinking about moving your application into the cloud? Don't know how?
+Don't want to learn the nitty gritty details? We're here for you! We can help
 you move your app into the AWS cloud, utilizing all needed services to provide
 high availability, cost efficiency and low maintenance.
 
@@ -39,11 +39,11 @@ We also know about various databases, queuing servers and lots of other stuff.
 
 Got an idea for an application but no clue on how to design it? Need to scale
 an existing application? We can help you design the architecture for your
-application. No matter if it’s a small application or a large application, we
+application. No matter if it's a small application or a large application, we
 have the experience to make it happen.
 
 ### Need something else?
 
-Send us an email describing your problem and we’ll get back to you as quickly
+Send us an email describing your problem and we'll get back to you as quickly
 as possible!
 
