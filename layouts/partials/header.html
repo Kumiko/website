@@ -15,7 +15,7 @@
         <ul class="nav nav-pills">
         {{ $currentNode := . }}
         {{ range .Site.Menus.main }}
-          <li{{ if $currentNode.HasMenuCurrent "main" . }}class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li{{ if $currentNode.HasMenuCurrent "main" . }}class="active"{{ end }}><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
         </ul>
       </div>
