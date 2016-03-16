@@ -1,0 +1,13 @@
+---
+baseurl: "https://kumiko.se"
+languageCode: "en-us"
+title: "Kumiko"
+metaDataFormat: "yaml"
+disableRSS: true
+disableSitemap: true
+menu:
+  main:
+    - Name: "Home"
+      Weight: 10
+      URL: "/"
+
